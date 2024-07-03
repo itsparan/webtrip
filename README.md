@@ -1,4 +1,21 @@
 A CI/CD pipeline consists of the following steps:
+Target technology stack
+
+AWS CodePipeline
+
+AWS CodeBuild
+
+AWS CodeCommit
+
+AWS IAM
+
+Amazon Simple Storage Service (Amazon S3)
+
+AWS Key Management Service (AWS KMS)
+
+Terraform
+
+
 
 Source control: The code is stored in a source control repository, such as GitHub or GitLab.
 Build: The code is built into a deployable artifact, such as a Docker image or a JAR file.
