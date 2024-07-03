@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  webapi:
+    build:
+      context: ./javaapi
+    ports:
+      - "9000:9000"
+    restart: always
+    container_name: webapi
+    depends_on:
+      - amrttdb
+
+  emartdb:
+    image: mysql:8.0.33
+    container_name: amartdb
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=emartdbpass
+      - MYSQL_DATABASE=books
