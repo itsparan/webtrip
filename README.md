@@ -1,5 +1,3 @@
-6299531906 text me over the whatsapp 
-
 A CI/CD pipeline consists of the following steps:
 Target technology stack
 
